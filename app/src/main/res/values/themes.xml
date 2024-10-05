@@ -1,0 +1,28 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.CatAgentProfile" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+    </style>
+
+    <!-- Custom Toolbar style -->
+    <style name="WhiteText" parent="Widget.AppCompat.Toolbar">
+        <item name="titleTextColor">#FFFFFF</item> <!-- Toolbar title color -->
+        <item name="android:textColorPrimary">#FFFFFF</item> <!-- Menu icon text color -->
+        <item name="android:gravity">center</item> <!-- Centers the title text vertically -->
+        <item name="titleTextAppearance">@style/ToolbarTitleText</item> <!-- Use custom text appearance -->
+    </style>
+
+    <!-- Custom text appearance style for toolbar title -->
+    <style name="ToolbarTitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">20sp</item> <!-- Adjust text size as needed -->
+        <item name="android:layout_gravity">center_vertical</item> <!-- Center the title vertically -->
+    </style>
+</resources>
